@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <header>
+    <h1>Contact Page</h1>
+
+    <nav>
+        <a href="index.html">Home</a> 
+        <a href="contact.html">Contact</a>
+    </nav>
+    <hr>
+</header>
+<main>
+    <h2>Registration Form</h2>
+
+    <form action="#" method="post">
+
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" placeholder="Enter your full name" required>
+
+        <br><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="Enter your email" required>
+
+        <br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" placeholder="Enter password" required>
+
+        <br><br>
+
+        <label>Gender:</label><br>
+
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <label>Hobbies:</label><br>
+
+        <input type="checkbox" name="hobby" value="music"> Music
+
+        <input type="checkbox" name="hobby" value="sports"> Sports
+
+        <input type="checkbox" name="hobby" value="coding"> Coding
+
+        <br><br>
+         <label>Select Department:</label><br>
+
+        <select name="department">
+
+            <option value="computer science">Computer Science</option>
+
+            <option value="medicine">Medicine</option>
+
+            <option value="law">Law</option>
+
+        </select>
+        <br><br>
+
+        <label>Message:</label><br>
+
+        <textarea
+            name="message"
+            rows="5"
+            cols="30"
+            placeholder="Enter your message">
+        </textarea>
+
+        <br><br>
+         <input type="submit" value="Submit">
+
+    </form>
+
+</main>
+</body>
+</html>
